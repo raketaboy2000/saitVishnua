@@ -4,7 +4,30 @@ html,body{
     line-height:1.5;
     min-width: 280px;
 }
-/*a{
+.header_down{
+    background-image: url("../img/bg/cherry.jpg");
+    
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+menu{
+    background-color: rgb(149, 22 , 31);
+    color:white;
+}
+.perehod{
+    background-color: rgb(243, 243, 243);
+    color: rgb(149, 22 , 31);
+}
+a{
+    color: rgb(149, 22 , 31);
+}
+/*Размеры:
+-задний фон (980*240)
+-картинки в столбцач(194*140)
+-верхняя часть (1299*72)
+-основыной блок, вместе с бок панелью, до подвала(980*1009)
+a{
     transition: 0.2s ease-out;
     -webkit-transition: 0.2s ease-out;
     -moz-transition: 0.2s ease-out;
