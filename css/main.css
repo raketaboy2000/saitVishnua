@@ -139,9 +139,69 @@ footer .right{
     color:#292E34;
     font-weight: 700;
 }
-/* Делаю блок списков */
-.lists {
+/* Делаю блок списков(доработать) */
+.block .inline {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-content: flex-end;
+}
+/* Делаю таблицу */
+table {
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 12px;
+   
+    
+    }
+    th {
+    background: #9B4757;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    }
+    td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    background: #282D33;
+    color: #A3ADB6;
+    text-align: left;
+    
+    padding: 10px 20px;
+    }
+    th:first-child, td:first-child {
+    text-align: center;
+    }
+table a{
+    color: #D08997;
+}
+.block .radius_top_left{
+    border-radius: 10px 0 0 0   ;
+    -webkit-border-radius: 10px 0 0 0   ;
+    -moz-border-radius: 10px 0 0 0   ;
+    -ms-border-radius: 10px 0 0 0   ;
+    -o-border-radius: 10px 0 0 0   ;
+}
+.block .radius_top_right{
+    border-radius: 0 10px 0 0    ;
+    -webkit-border-radius: 0 10px 0 0    ;
+    -moz-border-radius: 0 10px 0 0    ;
+    -ms-border-radius: 0 10px 0 0    ;
+    -o-border-radius: 0 10px 0 0    ;
+}
+.block .radius_bottom_right{
+    border-radius: 0 0 10px 0    ;
+    -webkit-border-radius: 0 0 10px 0    ;
+    -moz-border-radius: 0 0 10px 0    ;
+    -ms-border-radius: 0 0 10px 0    ;
+    -o-border-radius: 0 0 10px 0    ;
+}
+.block .radius_bottom_left{
+    border-radius: 0 0 0 10px    ;
+    -webkit-border-radius: 0 0 0 10px    ;
+    -moz-border-radius: 0 0 0 10px    ;
+    -ms-border-radius: 0 0 0 10px    ;
+    -o-border-radius: 0 0 0 10px    ;
 }
