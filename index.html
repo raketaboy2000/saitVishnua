@@ -23,13 +23,6 @@
 
 	<body>
 
-		<!-- Новый пулл запрос -->
-		<!-- <div class="newblocks"></div>
-		<div class="newblocks"></div>
-		<div class="newblocks"></div>
-		<div class="newblocks"></div>
-		<div class="newblocks"></div> -->
-
 		<!-- Хедер -->
 		<header> 
 
@@ -133,46 +126,46 @@
 		<!-- 1. Текстовый блок -->
 		<div class="block">
 			<h1>What We Do...</h1>
-			Lorem ipsum dolor sit amet, consectetur adipising elit,sed do elusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#" class="underlined-red">Duis aute irure dolor in reprehenderit in voluptate velit esse </a>
-			 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labo
+			<p>Lorem ipsum dolor sit amet, consectetur adipising elit,sed do elusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#" class="underlined-red">Duis aute irure dolor in reprehenderit in voluptate velit esse </a>
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 		
 		<!-- 2. Блок карточек -->
 		<div class="block cards">
 			<div class="card">
 				<h2>Admin panel</h2>
-				<img src="" alt="">
+				<img src="img/portfolio/Admin_panel.png" alt="Admin panel">
 			</div>
 			<div class="card">
 				<h2>Shortcodes</h2>
-				<img src="" alt="">
+				<img src="img/portfolio/Shortcodes.png" alt="Shortcodes">
 			</div>
 			<div class="card">
 				<h2>Videos</h2>
-				<img src="" alt="">
+				<img src="img/portfolio/Videos.png" alt="Videos">
 			</div>
 		</div>
 
 		<!-- 3. Блок списков -->
-		<div class="block">
-			<!-- Заголовок блока -->
-			<h1>Lists</h1>
+		<!-- Заголовок блока -->
+		<h1>Lists</h1>
+		<div class="block row">
+			
+			
 			<!-- Первый столбик -->
 			<div class="inline">
 				<!-- Заголовок столбика -->
-				<h3>List style type circle <strong>*ul*</strong></h3>
+				<h3 >List style type circle <strong>&lt;ul&gt;</strong></h3>
 				<div class="content">
-					<ul>
+					<ul class="margin-left">
 						<li>Lorem ipsum dolor sit amet</li>
 						<li>Consectetur adipisicing elit</li>
 						<li>Facillisis in pretium nisl aliquet</li>
 						<li>Nulla volutpat aliquam velit</li>
-						<ul>
-							<li>Phasellus laculls neque</li>
-							<li>Purus sodales ultricies</li>
-							<li>Vestibulum laoreet porttitor</li>
-						</ul>
+						<li class="margin-left">Phasellus laculls neque</li>
+						<li class="margin-left">Purus sodales ultricies</li>
+						<li class="margin-left">Vestibulum laoreet porttitor</l>
 						<li>Faucibus porta lacus fringilla vel</li>
 						<li>Aenean sit amet nunc</li>
 					</ul>
@@ -182,29 +175,28 @@
 			<!-- Второй столбик -->
 			<div class="inline">
 				<!-- Заголовок столбика -->
-				<h3>Unstyled <strong>/*ul class="unstyled"*/</strong></h3>
+				<h3>Unstyled <strong>&lt;ul class="unstyled"&gt; </strong></h3>
 				<div class="content">
-					Lorem ipsum dolor sit amet
-					consectetur adipising elit
-					sed do elusmod tempor incididunt
-					ut labore et dolore magna aliqua
-					Ut enim ad minim veniam,
-					<ul>
-						<li>Quis nostrud exercitation ullamco</li>
-						<li>Laboris nisi ut aliquip ex ea commodo consequat</li>
-						<li>Duis aute irure dolor in reprehenderit</li>
+					Lorem ipsum dolor sit amet<br>
+					Consectetur adipising elit<br>
+					Facillisis in pretium nisi aliquet<br>
+					Nulla volutpat aliquam velit<br>
+					<ul class="margin-left">
+						<li>Phasellus laculls neque</li>
+						<li>Purus sodales ultricies</li>
+						<li>Vestibulum laoreet porttitor</li>
 					</ul>
-					Excepteur sint occaecat cupidatat non proident
-					Sunt in culpa qui officia deserunt mollit anim
+					Faucibus porta lacus fringilla vel<br>
+					Aenean sit amet nunc<br>
 				</div>
 			</div>
 
 			<!-- Третий столбик -->
 			<div class="inline">
 				<!-- Заголовок столбика -->
-				<h3>Ordered <strong>*ol*</strong></h3>
+				<h3>Ordered <strong>&lt;ol&gt;</strong></h3>
 				<div class="content">
-					<ol>
+					<ol class="margin-left">
 						<li>Lorem ipsum dolor sit amet</li>
 						<li>Consectetur adipisicing elit</li>
 						<li>Facillisis in pretium nisl aliquet</li>
@@ -220,13 +212,13 @@
 		<div class="block">
 			<h1>Table</h1>
 			<table>
-				<th>
-					<td>№</td>
-					<td>Toranton rate</td>
-					<td>Puranocak var berond</td>
-					<td>Intime modular to cavan</td>
-					<td>Language</td>
-				</th>
+				<tr>
+					<th class="radius_top_left">№</th>
+					<th>Toranton rate</th>
+					<th>Puranocak var berond</th>
+					<th>Intime modular to cavan</th>
+					<th class="radius_top_right">Language</th>
+				</tr>
 				<tr>
 					<td>1</td>
 					<td>Lorem ipsum</td>
@@ -271,11 +263,11 @@
 					<td><a href="#">Povatior naron</a></td>
 				</tr>
 				<tr>
-					<td>7</td>
+					<td class="radius_bottom_left">7</td>
 					<td>Inbug for cars</td>
 					<td>Overview cal the montre</td>
 					<td>Overview cal the montre</td>
-					<td><a href="#">Inbug for cars</a></td>
+					<td class="radius_bottom_right"><a href="#">Inbug for cars</a></td>
 				</tr>
 			</table>
 		</div>
