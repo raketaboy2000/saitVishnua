@@ -10,6 +10,78 @@ body{
     font-family: 'PT Sans Caption', sans-serif;
     margin: 0;
 }
+div.wrapper{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+/* Sidebar */
+aside{
+    width: 30%;
+    overflow: hidden;
+    padding: 1em;
+}
+aside form {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border: 1px solid #e3e3e3;
+}
+aside form span {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0rem 0 0.7rem;
+}
+aside form button {
+    margin-top: 1em;
+    background: linear-gradient(#af232e,#971821);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.5em;
+    padding: 1rem;
+    border: 0.5em solid white;
+    box-shadow: 0px 3px 10px -3px black;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+.inp.light{
+    background-color: #e3e4e6;
+    border-color: white;
+    box-shadow: inset 0px 10px 20px -17px black;
+    margin: 0.3em 0em;
+    color: grey;
+    /* padding-top: 0.1em;
+    padding-bottom: 0.1em; */
+    font-size: 1em;
+    height: 2.2em;
+}
+.inp.light.sel{
+    /* margin: 1em 0 0 0; */
+    border: 1px solid silver;
+    box-shadow: none;
+    /* appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none; */
+    padding-right: 25px;
+    background-size: 10em 1em;
+}
+.sidebar-text{
+    margin-top: 1.5rem;
+    line-height: 1.5em;
+}
+.sidebar-text h2{
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 0.5rem;
+}
+
+
+main{
+    overflow: hidden;
+    width:70%;
+}
 
 .border {
     border: 1px solid black;
@@ -98,7 +170,7 @@ header .right button {
     text-decoration: underline;
 }
 
-footer .left{
+/* footer .left{
     
 }
 footer .center{
@@ -106,102 +178,4 @@ footer .center{
 }
 footer .right{
 
-}
-/* Делаю основной текст, выше блока карточек и блок карточек*/
-.block h1{
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    
-}
-.block p{
-    line-height: 1.4;
-}
-.block{
-    width: 60%;
-    margin: 0.5em;
-}
-.cards{
-    display: flex;
-    flex-direction: row;
-    justify-content: row;
-    align-items: left;
-    /* padding: 0.5em; */
-    margin: 0.5em;
-}
-.cards img{
-    border: 1px solid white; 
-    cursor: pointer;
-    margin: 0.5em;
-    box-shadow: 0px 2px 2px 1px #B2B2B2;
-}
-
-.block  h2{
-    color:#292E34;
-    font-weight: 700;
-}
-/* Делаю блок списков(доработать) */
-.block .inline {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: flex-end;
-}
-/* Делаю таблицу */
-table {
-    font-size: 14px;
-    border-collapse: collapse;
-    text-align: center;
-    padding: 12px;
-   
-    
-    }
-    th {
-    background: #9B4757;
-    color: white;
-    padding: 10px 20px;
-    border: 1px solid white;
-    }
-    td {
-    border-style: solid;
-    border-width: 0 1px 1px 0;
-    border-color: white;
-    background: #282D33;
-    color: #A3ADB6;
-    text-align: left;
-    
-    padding: 10px 20px;
-    }
-    th:first-child, td:first-child {
-    text-align: center;
-    }
-table a{
-    color: #D08997;
-}
-.block .radius_top_left{
-    border-radius: 10px 0 0 0   ;
-    -webkit-border-radius: 10px 0 0 0   ;
-    -moz-border-radius: 10px 0 0 0   ;
-    -ms-border-radius: 10px 0 0 0   ;
-    -o-border-radius: 10px 0 0 0   ;
-}
-.block .radius_top_right{
-    border-radius: 0 10px 0 0    ;
-    -webkit-border-radius: 0 10px 0 0    ;
-    -moz-border-radius: 0 10px 0 0    ;
-    -ms-border-radius: 0 10px 0 0    ;
-    -o-border-radius: 0 10px 0 0    ;
-}
-.block .radius_bottom_right{
-    border-radius: 0 0 10px 0    ;
-    -webkit-border-radius: 0 0 10px 0    ;
-    -moz-border-radius: 0 0 10px 0    ;
-    -ms-border-radius: 0 0 10px 0    ;
-    -o-border-radius: 0 0 10px 0    ;
-}
-.block .radius_bottom_left{
-    border-radius: 0 0 0 10px    ;
-    -webkit-border-radius: 0 0 0 10px    ;
-    -moz-border-radius: 0 0 0 10px    ;
-    -ms-border-radius: 0 0 0 10px    ;
-    -o-border-radius: 0 0 0 10px    ;
-}
+} */
