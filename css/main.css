@@ -139,7 +139,7 @@ footer .right{
     color:#292E34;
     font-weight: 700;
 }
-/* Делаю блок списков(доработать) */
+/* Делаю блок списков */
 .block.row {
     display: flex;
     flex-direction: row;
@@ -233,4 +233,18 @@ table a{
     -moz-border-radius: 0 0 0 10px    ;
     -ms-border-radius: 0 0 0 10px    ;
     -o-border-radius: 0 0 0 10px    ;
+}
+/* Делаю ссылки под хейдером (иерархия) */
+.hierarchy{
+    background-color: #F3F3F3;
+    padding: 0.5em;
+    color:#6B7076;
+    font-size: 10px;
+}
+.hierarchy a{
+    color:#96141E;
+}
+.hierarchy a.grey{
+    color:#6A6F73;
+    text-decoration: none;
 }
